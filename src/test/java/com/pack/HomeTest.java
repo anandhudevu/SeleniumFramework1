@@ -25,7 +25,7 @@ public class HomeTest extends BaseTest {
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			login.enterpswrd();
 			Thread.sleep(7000);
-			
+			//home
 			login.LoginClick();
 			Thread.sleep(4000);
 			Assert.assertEquals(home.Createbuttondisplay(), true);
